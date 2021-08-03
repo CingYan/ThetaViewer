@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <script src="javascripts/jquery-1.10.2.min.js"></script>
+  <script src="javascripts/modernizr-2.7.1-csstransforms3d-canvas-touch.js"></script>
+  <script src="javascripts/megapix-image.js"></script>
+  <script src="javascripts/three.min.js"></script>
+  <script src="javascripts/Detector.js"></script>
+  <script src="javascripts/CSS3DRenderer.js"></script>
+  <script src="javascripts/theta-viewer.min.js"></script>
+  <title>Demo 1</title>
+</head>
+<body>
+  <div id="theta-viewer"></div>
+  <script>
+/*global jQuery */
+(function ($) {
+    'use strict';
+    $("#theta-viewer").createThetaViewer('images/low.jpg');
+}(jQuery));
+  </script>
+</body>
+</html>
