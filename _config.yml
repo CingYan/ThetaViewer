@@ -1,0 +1,8 @@
+title: Theta Viewer
+description: RICOH THETA like equirectangular projection panorama HTML5 viewer
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
